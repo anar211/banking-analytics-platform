@@ -1,36 +1,22 @@
 banking-analytics-platform/
 
-├── README.md
-├── requirements.txt
-├── LICENSE
-├── .gitignore
-
 ├── data/
 │   ├── raw/
 │   └── processed/
-
 ├── sql/
 │   ├── schema.sql
 │   ├── analytics.sql
 │   ├── kpi_queries.sql
 │   └── views.sql
-
 ├── notebooks/
 │   └── banking_analysis.ipynb
-
 ├── src/
 │   ├── etl.py
 │   ├── preprocessing.py
-│   ├── visualization.py
-│   └── utils.py
-
+│   └── visualization.py
 ├── dashboards/
-│   └── ExecutiveDashboard.pbix
-
 ├── images/
-│   ├── dashboard.png
-│   ├── architecture.png
-│   └── erd.png
-
-└── docs/
+├── docs/
+├── README.md
+└── requirements.txt
     └── project_documentation.md
