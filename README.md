@@ -1,38 +1,55 @@
 # 🏦 Enterprise Banking Analytics Platform
 
-An enterprise-grade analytics platform designed to transform banking data into actionable business insights through modern data engineering, financial analytics, and executive reporting.
+An enterprise-grade analytics platform designed to transform banking data into actionable business insights through SQL, Python, ETL pipelines and Business Intelligence dashboards.
 
 ---
 
 ## Project Overview
 
-This project simulates a real-world banking analytics environment by integrating transactional data, customer information, ETL pipelines, SQL analytics, and interactive Power BI dashboards.
+This project simulates a real-world banking analytics environment by combining customer data, transaction data, loan information, SQL analytics, Python-based processing and executive dashboards.
 
-The objective is to demonstrate how enterprise financial institutions can leverage data to improve strategic decision-making, operational efficiency, and customer performance.
+The goal is to demonstrate how a financial institution can use data to improve reporting, monitor KPIs and support strategic decision-making.
 
 ---
 
 ## Business Objectives
 
-- Monitor financial KPIs
+- Monitor key financial indicators
 - Analyze customer behavior
-- Measure branch performance
-- Track loan portfolio quality
-- Detect business trends
-- Improve executive reporting
-- Enable data-driven decision making
+- Track transaction activity
+- Evaluate loan portfolio performance
+- Build analytical data marts
+- Automate reporting workflows
+- Support executive decision-making
 
 ---
 
 ## Technology Stack
 
-- Python
-- SQL
-- PostgreSQL
-- Power BI
-- Pandas
-- NumPy
-- Apache Spark
-- ETL Pipelines
+| Area | Tools |
+|------|------|
+| Programming | Python |
+| Database | SQL, PostgreSQL |
+| Analytics | Pandas, NumPy |
+| BI | Power BI |
+| Data Engineering | ETL, Data Warehouse |
+| Documentation | Markdown |
 
 ---
+
+## Project Architecture
+
+```text
+Raw Banking Data
+        ↓
+Data Cleaning
+        ↓
+ETL Pipeline
+        ↓
+SQL Data Warehouse
+        ↓
+Analytical Data Marts
+        ↓
+Power BI Dashboard
+        ↓
+Business Insights
